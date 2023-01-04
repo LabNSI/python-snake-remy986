@@ -3,7 +3,7 @@ import time
 
 
 def affichage_titre(titre):
-        for ligne in ____:
+        for ligne in titre:
             print(ligne)
         time.sleep(2)
 
@@ -18,4 +18,6 @@ titre =['  _______     _________ _    _  ____  _   _    _____ _   _          _  
 
 
 affichage_titre(titre)
+
+
 
