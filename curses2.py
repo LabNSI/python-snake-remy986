@@ -102,10 +102,10 @@ def jeu(win):
 	______________
 
 	while key!= 27 or key not in end:
-    key = controle(win, key)
-		snake, score = deplacement(win, score, key, snake, food)
-		end =  perdu(win, snake)
-
+      key = controle(win, key)
+  		snake, score = deplacement(win, score, key, snake, food)
+  		end =  perdu(win, snake)
+  
 	return score
 
 
