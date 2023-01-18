@@ -270,11 +270,11 @@ def plus_vite(score):
 	'''
 
 	# vitesse est le quotient de la division entière de score par 5 ( + 1)
-	vitesse = ___________
+	vitesse = score // 5 + 1
 
 	# Si vitesse est superieur à 10, alors vitesse = 10
-	_____________________:
-		vitesse = _______
+	if vitesse > 10:
+		vitesse = 10
 
 	return vitesse
 
